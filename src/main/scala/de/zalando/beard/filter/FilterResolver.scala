@@ -2,7 +2,6 @@ package de.zalando.beard.filter
 
 import org.slf4j.LoggerFactory
 import scala.collection.immutable.Map
-import scala.language.higherKinds
 
 /**
   * @author dpersa
