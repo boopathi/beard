@@ -26,7 +26,7 @@ object DefaultFilterResolver extends FilterResolver {
   var registry = defaultFilters.map(filter => (filter.name, filter)).toMap[String, Filter]
 
   override def resolve(identifier: String, parameterNames: Set[String]): Option[Filter] = {
-    logger.info(s"Resolve filter ${identifier}")
+//    logger.info(s"Resolve filter ${identifier}")
     registry.get(identifier)
   }
 
